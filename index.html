@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Q1 project</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <h1>$$   <strong>Hindsight Investing</strong>   $$</h1>
+      <h3>Find what you've missed out on</h3>
+      <hr>
+        <form>
+          <div class="label">
+            <label for="company">Enter the Company's ticker symbol</label>
+              <br>
+            <input type="text" id="search_company" name="company" />
+            <input type="button" id="search_button" value="search"></input>
+          </div>
+          <div class="label">
+            <label for="date">Choose a date you wished you would've started investing</label>
+            <br>
+            <input type="date" id="pick_date" name="date" />
+            <input type ="button" id="submit_date" value="submit"></input>
+          </div>
+        </form>
+        <form id="input_boxes">
+            <div class="para">
+                <p id="beginDate">Company Name</p>
+            </div>
+            <div class="line">
+              <div class="innerField">
+                  <div id="input_old_info">Chosen Date</div>
+                  <br>
+                  <div id="lower_old_info"></div>
+              </div>
+              <div class="centerField">
+                  <span id="lower_output_ticker">Symbol</span>
+              </div>
+              <div class="innerField">
+                  <div id="input_new_info">Recent Date</div>
+                  <br>
+                  <div id="lower_new_info"></div>
+              </div>
+          </div>
+        </form>
+
+            <hr>
+
+            <form>
+          <div class="label">
+            <label for="invest" class="invest">Enter the amount of shares you wish you would've bought
+              or the amount of money you wished you would've invested</label>
+            </div>
+            <div class="label">
+              <input type="text" id="invest" name="invest" />
+              <label class="boxes"><input type="checkbox" id="dollars"     onClick="toggle(this);" />Dollars</label>
+              <label class="boxes"><input type="checkbox" id="shares"       onClick="toggle(this);"/>Shares</label>
+              <input type="button" id="submit_amount" value="Are you sure you want to know?"></input>
+            </div>
+        </form>
+        <div class="missed">Here is what you missed out on!
+        </div>
+        <div class="amount">
+          <span id="amount_missed"></span>
+        </div>
+      <script src="app.js"></script>
+    </body>
+  </html>

@@ -1,0 +1,173 @@
+body{
+  background-color: #eee
+}
+h1{
+  background-color: green;
+  margin: 0;
+  text-align: center;
+  font-size: 5.2rem;
+}
+h3{
+  margin: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.full{
+  height: 7rem;
+  width: 100%;
+}
+.label{
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}
+.invest{
+  text-align: center;
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 50%;
+}
+input{
+  border: .1rem solid black;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.para{
+  font-size: 2rem;
+  text-align: center;
+}
+.box{
+  height: 6.1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.innerField{
+  display: inline-block;
+  background-color: white;
+  border: .1rem solid black;
+  height: 6rem;
+  width: 15rem;
+  margin: 0 auto;
+}
+.centerField{
+  display: inline-flex;
+  text-align: center;
+  height: 6rem;
+  width: 11rem;
+}
+span{
+  margin: 0 auto;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 10;
+}
+.button{
+  text-align: center;
+}
+.missed{
+  text-align: center;
+  font-size: 4rem;
+}
+.amount{
+  background-color: white;
+  height: 6rem;
+  width: 80%;
+  border: .1rem solid black;
+  text-align: center;
+  margin: 0 auto;
+}
+#input_old_info, #input_new_info{
+  display: block;
+  font-size: 2rem;
+  width: 15rem;
+  text-align: center;
+  height: 2.5rem;
+  margin: 0 auto;
+}
+#lower_old_info{
+  display: block;
+  width: 15rem;
+  font-size: 2rem;
+  text-align: center;
+  height: 2.5rem;
+  margin: 0 auto;
+}
+#lower_new_info{
+  display: block;
+  font-size: 2rem;
+  width: 15rem;
+  text-align: center;
+  height: 2.5rem;
+  margin: 0 auto;
+}
+#lower_output_ticker{
+  font-size: 2rem;
+  margin-top: 2rem;
+  width: 15rem;
+}
+#dollars, #shares{
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: left;
+}
+#amount_missed{
+  background-color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.box{
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+}
+#output_ticker{
+  font-size: 1rem;
+  flex-wrap: nowrap;
+}
+#submit_amount{
+  background-color: #abd;
+  font-size: 2rem;
+  height: 3rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+}
+#search_company{
+  height: 4rem;
+  width: 8rem;
+}
+#search_button{
+  background-color: #abd;
+  height: 3rem;
+  width: 10rem;
+  border-radius: .5rem;
+}
+#pick_date{
+  height: 4rem;
+  width: 19rem;
+}
+#submit_date{
+  background-color: #abd;
+  height: 3rem;
+  width: 10rem;
+  border-radius: .5rem;
+}
+#input_boxes{
+  text-align: center;
+}
+#invest{
+  height: 3rem;
+  width: 12rem;
+}
+.boxes{
+  font-size: 2rem;
+  width: 12rem;
+  height: 3rem;
+}
+#beginDate{
+  margin-bottom: 0;
+}
+.line{
+  height: auto;
+}
